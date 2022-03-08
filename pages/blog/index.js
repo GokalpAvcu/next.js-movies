@@ -1,5 +1,3 @@
-import Link from 'next/Link';
-import Image from 'next/image'
 import Head from 'next/head'
 
 export default function Home(){
@@ -7,8 +5,8 @@ export default function Home(){
         <Head>
             <title>Hakkında</title>
         </Head>
-        <Link href="/">
-            Geri dön
-            </Link>
+
+        <h3>Blog Page</h3>
+        
     </div>
 }
