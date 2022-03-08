@@ -1,7 +1,7 @@
 import Link from "next/link"
 
 export default function Header(){
-    return <header>
+    return <div className="header">
         <nav>
             <ul>
                 <li>
@@ -21,27 +21,5 @@ export default function Header(){
                 </li>
             </ul>
         </nav>
-        <style jsx>{`
-        .header { 
-            background: #fff;
-            border-bottom: 1px solid #ccc;
-
-            ul {
-                display: flex;
-
-            li{
-                a {
-                height: 60px;
-                display: flex;
-                align-items: center;
-                padding: 0 20px;
-               
-               
-                }
-            }
-            }
-        }
-        
-        `}</style>
-    </header>
+    </div>
 }
