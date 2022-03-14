@@ -5,7 +5,7 @@ function Home({movies}) {
 	return (
 		<>
 			<Head>
-				<title>Create Next App</title>
+				<title>Movies App</title>
 				<link rel="icon" href="/favicon.ico"/>
 			</Head>
 
